@@ -10,6 +10,11 @@ import { Signup } from "./Signup"
 import Comp2 from "../Comp2"
 import LifeCycle from "./LifeCycle"
 import Time from "./time"
+import Effect from "./Effect"
+import News from "./News"
+import Counter from "./Countuseeffect"
+import Redux from "./useReducer"
+import FormRedux from "./Formreducer"
 function App() {
   let data1 = ['Dsa','Cpp']
   const [inputVal, setInputVal] = useState("");
@@ -46,15 +51,19 @@ function App() {
       <Controlled></Controlled>
     </div>
      */}
-     {
+     
       <div>
        {/* <Signup></Signup> */}
-        <Comp2 fname = "sai"></Comp2>
+        {/* <Comp2 fname = "sai"></Comp2>
         <LifeCycle firstname = "Suryaaaaa"></LifeCycle>
-        <Time timenow ></Time>
-        
+        <Time timenow ></Time> */}
+        {/* <Effect></Effect> */}
+          {/* <News></News> */}
+          {/* <Counter></Counter> */}
+          {/* <Redux></Redux> */}
+          <FormRedux></FormRedux>
       </div>
-     }
+     
     </>
   )
 }
