@@ -15,18 +15,23 @@ import News from "./News"
 import Counter from "./Countuseeffect"
 import Redux from "./useReducer"
 import FormRedux from "./Formreducer"
+import Router from "./routing"
+import NavBar from "./nav"
+import { Comp11 } from "./Comp11"
+import Userdetails from "./Userdetails"
+import Timer from "./timer/Timer"
 function App() {
-  let data1 = ['Dsa','Cpp']
-  const [inputVal, setInputVal] = useState("");
-  const[light, setTheme] = useState(true);
-  function handleClick(e) {
-    setInputVal(e.target.value)
-    console.log(e.target.value)
-  }
-  function handletheme() {
-    setTheme(!light);
-    document.body.style.backgroundColor = !light ? "white" : "black";
-  }
+  // let data1 = ['Dsa','Cpp']
+  // const [inputVal, setInputVal] = useState("");
+  // const[light, setTheme] = useState(true);
+  // function handleClick(e) {
+  //   setInputVal(e.target.value)
+  //   console.log(e.target.value)
+  // }
+  // function handletheme() {
+  //   setTheme(!light);
+  //   document.body.style.backgroundColor = !light ? "white" : "black";
+  // }
   
 
   return (
@@ -61,7 +66,11 @@ function App() {
           {/* <News></News> */}
           {/* <Counter></Counter> */}
           {/* <Redux></Redux> */}
-          <FormRedux></FormRedux>
+          {/* <FormRedux></FormRedux> */}
+          {/* <Router></Router> */}
+          {/* <Comp11></Comp11> */}
+          {/* <Timer></Timer> */}
+          
       </div>
      
     </>
