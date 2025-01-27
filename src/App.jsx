@@ -69,7 +69,7 @@ function App() {
           {/* <FormRedux></FormRedux> */}
           {/* <Router></Router> */}
           {/* <Comp11></Comp11> */}
-          {/* <Timer></Timer> */}
+          <Timer></Timer>
           
       </div>
      
